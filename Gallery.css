@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: LucyRose;
+    src: url(../Fonts/LucyRose/LucyRosePERSONAL-Regular.otf);
+    font-family: Autography;
+    src: url(../Fonts/Autography/Autography.otf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+p{
+    font-family: 'LucyRose';
+    font-weight:bold;
+    font-size:40px;
+    text-align: center;
+    color: whitesmoke;    
+    background-color: black;
+    position: sticky;
+    top: 0;
+    border-bottom:2px solid white ;
+}
+p::first-letter{
+    color: red;
+    font-family: 'Autography';
+    font-size: 60px;
+}
+.flexcontainer{
+    padding-left: 20px;
+    display: block;
+    align-items: center;
+    align-self: center;
+}
+img{
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    height:50vh;
+}
+@media screen and (min-width:300px) and (max-width:767px) {
+    p{
+        font-family: 'LucyRose';
+        font-weight:bold;
+        font-size:18px;
+        text-align: center;
+        color: whitesmoke;    
+        background-color: black;
+        position: sticky;
+        top: 0;
+        border-bottom:2px solid white ;
+    }
+    p::first-letter{
+        color: red;
+        font-family: 'Autography';
+        font-size: 25px;
+    }
+}
